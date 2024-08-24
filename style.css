@@ -1,0 +1,99 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --l-grey: #ffffffb3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    
+}
+
+.container {
+    display: block;
+    justify-content: center;
+}
+
+.headerSection {
+    margin: 100px 0px;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.contentSection {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+#task {
+    font-size: 1.8rem;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 50px;
+    text-align: center;
+    width: 375px;
+}
+
+.button {
+    border: 1px solid;
+    text-align: center;
+    font-size: 1.8rem;
+    width: 125px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.listSection {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    line-height: 25px;
+    font-size: 2.4rem;
+}
+
+ol {
+    line-height: 30px;
+}
+
+.button1 {
+    border: 1px solid;
+    text-align: center;
+    font-size: 1.8rem;
+    width: 75px;
+    height: 25px;
+    border-radius: 50px;
+    padding: 2px;
+}
+
+.footerSection {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.author {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: var(--l-grey);
+}
+
+.profile-link {
+    text-decoration: none;
+    color: var(--l-grey);
+}
